@@ -14,3 +14,28 @@ a {
 * {
   box-sizing: border-box;
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+ 
+}
+.dropdown:hover .seta{
+  transform: rotate(180deg);
+}
+.seta{
+  transition: .5s;
+}
+
+.options:hover{
+  font-size: 16px;
+}
+.herobutton:hover{
+box-shadow: none;
+opacity: .9;
+  transform: scale(1.075);
+
+}
+.herobutton{
+  transition: .3s;
+  transform: scale(1.1);
+  box-shadow: 0px 1px 1px 1px rgba(59, 131, 246, 0.699);
+}
