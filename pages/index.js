@@ -10,10 +10,14 @@ import Collapse from "../components/home/Questions";
 import SecondaryCard from "../components/home/SecondaryCard";
 import Start from "../components/home/Start";
 import Team from "../components/home/Team";
+import Head from "next/head";
 
 const index = () => {
   return (
     <div data-aos="fade-down" data-aos-duration="1000">
+      <Head>
+        <title>OYEAH!!</title>
+      </Head>
       <Header />
       <Hero />
       <Collapse />
