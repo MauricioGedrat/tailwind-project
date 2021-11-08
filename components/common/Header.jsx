@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div>
+    <div className="bg-bg-gradient-to-r bg-white border-b border-gray-200">
       <div>
-        <nav className="flex justify-around items-center w-screen bg-blue-200 shadow-lg p-3">
+        <nav className="flex justify-between items-center shadow-lg md:p-3">
           <div className="p-1 sm:w-1/5">
             <div className="text-black text-center flex font-semibold font-sans p-3">
               <div className="p-3">
                 <svg
-                  className="text-black w-6 h-6 "
+                  className="text-black w-6 h-6 font-semibold"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -26,7 +26,7 @@ const Header = () => {
               </div>
               <Link href="/">
                 <a>
-                  <div className="bg-blue-300 p-3 rounded-lg shadow-lg">
+                  <div className=" rounded-lg logo text-3xl font-light">
                     OYeah!!
                   </div>
                 </a>
@@ -64,21 +64,21 @@ const Header = () => {
               <ul className="dropdown-menu  absolute w-48 bg-blue-100 rounded-lg shadow-xl mt-5 -ml-48 hidden sm:mr-24 md:mr-32 lg:mr-48 xl:mr-64s">
                 <li className="">
                   <Link href="#">
-                    <a className="rounded-t text-gray-800 hover:bg-gray-600 hover:text-white duration-300 py-2  px-4 block whitespace-no-wrap">
+                    <a className="rounded-t text-gray-800 hover:bg-blue-300 hover:text-white duration-300 py-2  px-4 block whitespace-no-wrap">
                       Perfil
                     </a>
                   </Link>
                 </li>
                 <li className="">
                   <Link href="#">
-                    <a className="text-gray-800 hover:bg-gray-600 hover:text-white duration-300 py-2 px-4 block whitespace-no-wrap">
+                    <a className="text-gray-800 hover:bg-blue-300 hover:text-white duration-300 py-2 px-4 block whitespace-no-wrap">
                       Configuração
                     </a>
                   </Link>
                 </li>
                 <li className="">
                   <Link href="#">
-                    <a className="rounded-b text-gray-800 hover:bg-gray-600 hover:text-white duration-300 py-2 px-4 block whitespace-no-wrap">
+                    <a className="rounded-b text-gray-800 hover:bg-blue-300 hover:text-white duration-300 py-2 px-4 block whitespace-no-wrap">
                       Sair
                     </a>
                   </Link>
